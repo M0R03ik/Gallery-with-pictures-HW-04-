@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+  padding: 15px;
   max-width: 1200px;
   text-align: center;
   font-family: 'Nunito', sans-serif;
@@ -31,4 +32,18 @@ body {
 .button:active {
   top: 7px;
   box-shadow: 0 3px #e09201, 0px 3px 6px #888888;
+}
+
+.gallery {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.gallery__image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 15px;
 }
