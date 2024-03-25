@@ -41,7 +41,6 @@ body {
 .button_moore {
   display: none;
   margin: 50px auto;
-  width: 110px;
 }
 
 .gallery {
@@ -86,6 +85,10 @@ body {
 
   .button {
     font-size: 1.5em;
+  }
+
+  .button_moore {
+    width: 110px;
   }
 
   .gallery {
