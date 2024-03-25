@@ -34,6 +34,11 @@ body {
   box-shadow: 0 3px #e09201, 0px 3px 6px #888888;
 }
 
+.button_moore {
+  display: none;
+  margin: 50px auto;
+}
+
 .gallery {
   margin-top: 50px;
   display: grid;
